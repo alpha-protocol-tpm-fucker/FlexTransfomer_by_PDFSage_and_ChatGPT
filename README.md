@@ -1,7 +1,3 @@
-Below is a practical-engineering menu of everything you can tweak in a Transformer’s math to squeeze speed, stability, or context length. Citations mark the key papers, blog posts, or docs you’d inspect before implementing.
-
----
-
 ## TL;DR
 
 * **LayerNorm + Residuals:** You can move, replace, scale, gate, or even drop them. Pre-LN trains faster and is now default; Post-LN still beats it in very deep decoders with **DeepNorm** or **RMSNorm** scalings.
